@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto 4used
 
-## Available Scripts
+A 4used é uma startup voltada para compra e venda de produtos usados. Aqui vamos publicar roupas, artigos de decoração, calçados, eletronicos e móveis. Com um espírito moderno e jovial conectando empresas e pessoas que querem vender com as pessoas interessadas em comprar mercadorias de qualidade com um preço mais em conta.
 
-In the project directory, you can run:
+> A biblioteca utilizada para o design system será a [material.io](https://material.io/).  
 
-### `npm start`
+## Página Principal 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- __Paletas de Cores__: Na página inicial utilizamos as cores da logomarca do cliente.  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> __Primary color__: #43ada5  
+>
+> 1. Primary-light: #79dfd6 
+> 2. Primary-dark: #007d76
+>
+> __Secondy color__: #fcca64 
+>
+> 1. Secondary-ligth: #fffd94 
+> 2. Secondary-dark: #c69934
 
-### `npm test`
+- __Botões__: Foram adicionados dois botoes para fazer segmentação do cliente.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  1. __Quero comprar__: Usuários interessados em __fazer compras__ no site.
 
-### `npm run build`
+  2. __Quero vender__: Empresas ou usuários interessados em divulgar e __vender__ seus produtos no site.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Página "Quero Comprar"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- No header teremos um filtro e as categorias dos produtos e um botão.
+  1. Filtro: Filtar produtos.
+  2. Menu bar: Vai redirecionar para categorias dos produtos.
+  3. Botão: Alternar da pagina de compra para uma página de cadastro de venda de produtos.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Grid.
+  1. No grid teremos fotos das categorias produtos com uma breve descrição.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Página de Categoria
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Será mostrado o grid dos produtos de uma __mesma categoria__.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Página "Quero Vender"
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Um formulário com os dados do vendedor para divulgar os produtos.
+- Botão: Alternar da pagina de cadastro para a pagina de vendas.
